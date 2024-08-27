@@ -3,12 +3,12 @@ const http = require('http');
 
 // Configure the HTTP server to respond with "Hello World" to all requests.
 const hostname = '0.0.0.0';
-const port = 3030;
+const port = 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World this is ashi\n');
+  res.end('Hello World, this is ashi\n');
 });
 
 // Listen on port 3000 and IP 127.0.0.1.
